@@ -1,0 +1,113 @@
+h1{
+    float: left;
+    color: orange;
+    font-size: 42px;
+    font: bold;
+}
+
+nav{
+    background-color: darkgrey;
+    padding: 15px;
+    width: 100%;
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: orange;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid green;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: green;
+}
+
+#active{
+    background-color: orangered;
+}
+
+header{
+    color: navajowhite;
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+aside{
+    color: rgb(0, 0, 0);
+    border: 1px solid green;
+    float: right;
+}
+
+aside ul{
+    text-align: left;
+    font-size: 1.2em;
+}
+
+aside ul li{
+    color: blue;
+    text-decoration: none;
+}
+
+aside ul li a{
+    list-style-type: none;
+}
+
+footer {
+    padding: 0;
+    border: 1px solid green;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+    clear: both;
+}
+
+main{
+    color: rgb(0, 0, 0);
+    border: 1px solid green;
+    margin-bottom: 5px;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+}
+
+.columns{
+    column-count: 2;
+    column-rule: 1px solid black;
+    column-gap: 30px;
+}
+
+.video{
+    float: left;
+    width: 55%;
+}
+
+video {
+    display: block;
+    width: 100%;
+    max-width: 1600px;
+    margin: 20px auto;
+    border: 4px solid orange;
+    border-radius: 5px;
+    background-color: white;
+}
